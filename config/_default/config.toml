@@ -39,8 +39,6 @@ googleAnalytics = ""
   tag = "tags"
   series = "series"
 
-#[outputs]
-#  home = ["HTML", "RSS", "JSON"]
 [outputs]
   page = ["HTML", "SearchIndex"]
   home = ["HTML", "RSS", "SearchIndex"]
