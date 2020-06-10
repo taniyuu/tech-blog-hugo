@@ -7,9 +7,9 @@ header:
     paddingY: 0
     align: center
     title:
-      - HUGO
+      - Nonki Blog
     subtitle:
-      - The world’s fastest framework for building websites
+      - マイペースにゆっくり書いていきます
     titleColor: # #123456, red
     titleShadow: false
     titleFontSize: 44

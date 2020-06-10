@@ -37,4 +37,4 @@ items:
           [heeeee](https://google.com)
 ---
 
-このページについて。
+WIP
