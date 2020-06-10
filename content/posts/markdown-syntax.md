@@ -2,6 +2,7 @@
 title: "ページ作りました"
 date: 2020-06-10T15:59:50+09:00
 draft: false
+description: このブログの最初のPostです。
 tags: ["Hugo","Zzo"]
 ---
 
