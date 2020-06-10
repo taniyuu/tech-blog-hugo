@@ -22,4 +22,4 @@ hugo new ディレクトリ名/記事名.md
 - Zzoを利用している日本語サイト
   - [Inomaso Blog](https://www.inomaso.com/)
   - [Tweet Blog](https://encr.jp/blog/)
-  
+  - [Freaky Engineer Notes](https://fe-notes.work/)
