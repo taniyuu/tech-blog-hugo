@@ -17,6 +17,20 @@ themeを変えることは（そう簡単ではないですが、記事がMarkdo
 hugo new ディレクトリ名/記事名.md
 ```
 
+### ショートコード - Youtube
+最初のカッコを半角に変えてください
+```
+｛{< youtube t5gbZCkpYmI >}}
+```
+{{< youtube t5gbZCkpYmI >}}
+
+### ショートコード - Twitter
+最初のカッコを半角に変えてください
+```
+｛{< tweet 877500564405444608 >}}
+```
+{{< tweet 877500564405444608 >}}
+
 ## 参考サイト
 - [Hugoを触ってみたので、一通りの弄り方をまとめる](https://qiita.com/yakimeron/items/42d537374abde5517267)
 - Zzoを利用している日本語サイト
