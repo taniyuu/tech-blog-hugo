@@ -1,4 +1,4 @@
-name: netlify
+name: link check
 
 on:
   schedule:
