@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Check for broken links
         id: link-report
-        uses: celinekurpershoek/github-actions-link-checker@{version}
+        uses: celinekurpershoek/link-checker@v1.0.0
         with:
           # Required:
           url: "https://nonki-blog.netlify.app/"
