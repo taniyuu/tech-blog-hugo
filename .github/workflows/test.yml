@@ -4,12 +4,16 @@ on:
   push:
     branches:
       - feature/hugo-linkcheck
+env:
+  WEBSITE_URL: "https://nonki-blog.netlify.app/"
 
 jobs:
   broken_link_checker_job:
     runs-on: ubuntu-latest
     name: Check for broken links
     steps:
+      - name: Run Broken Links Checker
+        run: npx broken-link-checker $WEBSITE_URL --ordered --recursive
       - name: Check for broken links
         id: link-report
         uses: celinekurpershoek/link-checker@v1.0.0
