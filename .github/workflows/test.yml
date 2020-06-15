@@ -1,0 +1,18 @@
+name: netlify
+
+on:
+  push:
+    branches:
+      - feature/hugo-linkcheck
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true # Fetch Hugo themes
+          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Hugo Broken Link Check
+        uses: marccampbell/hugo-linkcheck-action@v0.1.3
