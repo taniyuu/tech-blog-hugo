@@ -12,16 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     name: Check for broken links
     steps:
-      #- name: Run Broken Links Checker
-      #  run: npx broken-link-checker $WEBSITE_URL --ordered --recursive --exclude https://t.co/
-      - name: Check for broken links
+      - name: Run Broken Links Checker
+        run: npx broken-link-checker $WEBSITE_URL --ordered --recursive --exclude https://t.co/
         id: link-report
-        uses: celinekurpershoek/link-checker@v1.0.0
-        with:
-          # Required:
-          url: "https://nonki-blog.netlify.app/"
-          # optional:
-          honorRobotExclusions: false
-          ignorePatterns: "https://t.co/"
       - name: Get the result
         run: echo "${{steps.link-report.outputs.result}}"
