@@ -8,6 +8,8 @@ on:
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
+    env:
+      DOMAIN: https://nonki-blog.netlify.app
     steps:
       - uses: actions/checkout@v2
         with:
@@ -25,4 +27,4 @@ jobs:
       - name: Link Checker
         uses: peter-evans/link-checker@v1
         with:
-          args: -v -r public
+          args: -v -r -d $DOMAIN public
