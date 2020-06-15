@@ -6,23 +6,18 @@ on:
       - feature/hugo-linkcheck
 
 jobs:
-  linkChecker:
+  broken_link_checker_job:
     runs-on: ubuntu-latest
+    name: Check for broken links
     steps:
-      - uses: actions/checkout@v2
+      - name: Check for broken links
+        id: link-report
+        uses: celinekurpershoek/github-actions-link-checker@{version}
         with:
-          submodules: true # Fetch Hugo themes
-          fetch-depth: 0 # Fetch all history for .GitInfo and .Lastmod
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
-        with:
-          hugo-version: "0.72.0"
-
-      - name: Build
-        run: hugo --minify
-
-      - name: Link Checker
-        uses: peter-evans/link-checker@v1
-        with:
-          args: -v -r -d ${GITHUB_WORKSPACE} public
+          # Required:
+          url: "https://nonki-blog.netlify.app/"
+          # optional:
+          honorRobotExclusions: false
+          #ignorePatterns: 'github,google'
+      - name: Get the result
+        run: echo "${{steps.link-report.outputs.result}}"
