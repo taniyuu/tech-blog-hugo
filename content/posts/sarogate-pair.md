@@ -5,7 +5,7 @@ description: 文字コードって面倒だねって話かな
 tags: ["Unicode"]
 ---
 
-# 文字コードの簡単な勉強
+## 文字コードの簡単な勉強
 
 [文字コード再入門 ─ Unicodeでのサロゲートペア、結合文字、正規化、書記素クラスタを理解しよう！](https://eh-career.com/engineerhub/entry/2020/04/28/103000)
 [【図解】【3分解説】UnicodeとUTF-8の違い！【今さら聞けない】](https://qiita.com/omiita/items/50814037af2fd8b2b21e)
@@ -24,12 +24,12 @@ tags: ["Unicode"]
 
 
 
-# Javaでの落とし穴？
+## Javaでの落とし穴？
 
 [Java の文字型 (char)](https://java.keicode.com/lang/data-types-char.php#3-1)
 
 
-## 文字列長
+### 文字列長
 
 - `String#length`だと、Unicode（UTF-16）換算の長さになる。
 - `String#codePoints`だと、実際の文字の長さ（コードポイントの個数）になる
@@ -50,7 +50,7 @@ public class CharacterValidatorTest {
 }
 ```
 
-## Bean Validator
+### Bean Validator
 `@Length`, `@Size`共に、Unicode単位。
 `@CodePointLength`を使いましょう。
 
