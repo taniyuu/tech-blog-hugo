@@ -132,7 +132,7 @@ commento = false
 [socialOptions] # if set, social icons will show up.
   #email = "mailto:your@email.com"
   phone = ""
-  twitter = "https://twitter.com/zone_tanichan"
+  twitter = "https://twitter.com/zone_tanichan/"
   facebook = "https://www.facebook.com/yuuki.taniyama.5/"
   github = "https://github.com/taniyuu"
   stack-overflow = ""

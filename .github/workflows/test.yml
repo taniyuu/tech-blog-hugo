@@ -14,7 +14,7 @@ jobs:
     name: Check for broken links
     steps:
       - name: Run Broken Links Checker
-        run: npx broken-link-checker $WEBSITE_URL --ordered --recursive --exclude https://t.co/
+        run: npx broken-link-checker $WEBSITE_URL --ordered --recursive --exclude https://t.co/,https://twitter.com/zone_tanichan
         id: link-report
       - name: Get the result
         run: echo "${{steps.link-report.outputs.result}}"
