@@ -8,7 +8,7 @@ tags: ["Hugo","Zzo"]
 
 Goの静的サイトジェネータ（Static Site Generator）である[Hugo](https://gohugo.io/)を使っています。
 
-Hugoでは色々なthemeを選べるのですが、シンプルそうな[Zzo](https://zzodocs.netlify.app/)を利用してみました。
+Hugoでは色々なthemeを選べるのですが、シンプルそうな[Zzo](https://zzo-docs.vercel.app/zzo/)を利用してみました。
 themeを変えることは（そう簡単ではないですが、記事がMarkdownである限り）難しくなさそうなので、とりあえず行けるところまでこれで行ってしまおうと思います。
 
 ## チートシート（随時更新）
