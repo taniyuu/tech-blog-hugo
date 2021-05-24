@@ -1,7 +1,7 @@
 ---
 title: "EKSでのロードバランサ構築"
 date: 2021-04-16T15:16:07+09:00
-draft: true
+draft: false
 description: インフラのお勉強
 tags: [aws, eks, kubernetes, infra]
 ---

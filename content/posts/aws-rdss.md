@@ -1,7 +1,7 @@
 ---
 title: "RDSに関する勉強"
 date: 2021-04-12T14:50:16+09:00
-draft: false
+draft: true
 description: AWS、RDSに関する端っこに書いてあることまとめ
 tags: [aws, rds, serverless]
 ---
