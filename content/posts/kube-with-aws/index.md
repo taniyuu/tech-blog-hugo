@@ -75,8 +75,8 @@ yuki@taniyamayuukinoMacBook-Air ~ %
 多分、頑張れば AWS CLI とかでも再現できるんだろう。。。
 
 クラスタの IDP の URL にある ID が IAM の ID プロバイダの名前になっていることが確認できるはずです（ややこしい）。
-![](images/kube-cluster.jpg)
-![](images/kube-oidc.jpg)
+![](./kube-cluster.jpg)
+![](./kube-oidc.jpg)
 
 #### Download IAM policy for the AWS Load Balancer Controller
 
