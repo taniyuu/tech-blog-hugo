@@ -1,10 +1,12 @@
 ---
-title: "RDSに関する勉強"
+title: "RDSに関する勉強メモ"
 date: 2021-04-12T14:50:16+09:00
-draft: true
+draft: false
 description: AWS、RDSに関する端っこに書いてあることまとめ
 tags: [aws, rds, serverless]
 ---
+
+クソ記事です。
 
 ### Aurora Serverless
 
