@@ -179,7 +179,7 @@ yuki@taniyamayuukinoMacBook-Air ~ % eksctl delete iamserviceaccount \
 2021-05-10 15:46:16 [ℹ]  1 task: { 2 sequential sub-tasks: { delete IAM role for serviceaccount "kube-system/aws-load-balancer-controller" [async], delete serviceaccount "kube-system/aws-load-balancer-controller" } }
 2021-05-10 15:46:17 [ℹ]  will delete stack "eksctl-sample-eks-cluster-addon-iamserviceaccount-kube-system-aws-load-balancer-controller"
 2021-05-10 15:46:17 [ℹ]  serviceaccount "kube-system/aws-load-balancer-controller" was already deleted
-yuki@taniyamayuukinoMacBook-Air tance %
+yuki@taniyamayuukinoMacBook-Air ~ %
 ```
 
 ### Add Controller to Cluster
