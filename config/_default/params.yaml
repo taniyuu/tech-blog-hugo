@@ -1,0 +1,187 @@
+logoText: Nonki Blog
+logoType: short
+logo: true
+description: Engineer blog written by taniyuu.
+custom_css: []
+custom_js:
+  - js/custom.js
+  - js/sw.js
+useFaviconGenerator: true
+languagedir: ltr
+themeOptions:
+  - dark
+  - light
+  - hacker
+  - solarized
+  - kimbie
+notAllowedTypesInHome:
+  - contact
+  - talks
+  - about
+  - showcase
+notAllowedTypesInHomeSidebar:
+  - about
+  - archive
+  - showcase
+notAllowedTypesInArchive:
+  - about
+  - talks
+  - showcase
+notAllowedTypesInHomeFeed:
+  - about
+  - archive
+  - contact
+  - talks
+  - showcase
+  - publication
+  - presentation
+  - resume
+  - gallery
+viewportSize: normal
+enableUiAnimation: true
+hideSingleContentsWhenJSDisabled: false
+homeHeaderType: text
+showMobileMenuTerms:
+  - tags
+  - categories
+  - series
+enableThemeChange: true
+enableBreadcrumb: true
+enableSearch: true
+enableSearchHighlight: true
+enableGoToTop: true
+enableWhoami: true
+summaryShape: classic
+archiveGroupByDate: '2006'
+archivePaginate: 13
+paginateWindow: 1
+talksPaginate: 8
+talksGroupByDate: '2006'
+myname: taniyuu
+email: cmt.0801nonki@gmail.com
+whoami: Front-End Engineer?
+bioImageUrl: ''
+useGravatar: false
+location: 'Shiga, Japan'
+enableBio: true
+enableBioImage: true
+enableSidebar: true
+enableSidebarTags: true
+enableSidebarSeries: true
+enableSidebarCategories: true
+enableHomeSidebarTitles: true
+enableListSidebarTitles: true
+enableToc: true
+hideToc: false
+tocPosition: inner
+tocFolding: false
+enableTocSwitch: true
+itemsPerCategory: 5
+sidebarPosition: right
+tocLevels:
+  - h2
+  - h3
+  - h4
+enableSidebarPostsByOrder: false
+showPoweredBy: true
+showFeedLinks: true
+showSocialLinks: true
+enableLangChange: true
+googleTagManager: ''
+baiduAnalytics: ''
+enableBusuanzi: false
+busuanziSiteUV: true
+busuanziSitePV: true
+busuanziPagePV: true
+enableComment: true
+disqus_shortname: ''
+commento: false
+gitment:
+  owner: ''
+  repo: ''
+  clientId: ''
+  clientSecret: ''
+utterances:
+  owner: ''
+  repo: ''
+gitalk:
+  owner: ''
+  repo: ''
+  clientId: ''
+  clientSecret: ''
+valine:
+  enable: false
+  appId: 你的appId
+  appKey: 你的appKey
+  notify: false
+  verify: false
+  avatar: mm
+  placeholder: 说点什么吧...
+  visitor: false
+changyan:
+  changyanAppid: ''
+  changyanAppkey: ''
+livere:
+  livereUID: ''
+isso:
+  enable: false
+  scriptSrc: ''
+  dataAttrs: ''
+socialOptions:
+  phone: ''
+  twitter: 'https://twitter.com/zone_tanichan/'
+  facebook: 'https://www.facebook.com/yuuki.taniyama.5/'
+  github: 'https://github.com/taniyuu'
+  stack-overflow: ''
+  instagram: 'https://www.instagram.com/zone_tanichan/'
+  google-plus: ''
+  youtube: ''
+  medium: ''
+  tumblr: ''
+  linkedin: ''
+  pinterest: ''
+  stack-exchange: ''
+  telegram: ''
+  steam: ''
+  weibo: ''
+  douban: ''
+  csdn: ''
+  gitlab: ''
+  mastodon: ''
+  jianshu: ''
+  zhihu: ''
+  signal: ''
+  whatsapp: ''
+  matrix: ''
+  xmpp: ''
+  dev-to: ''
+  gitea: ''
+  google-scholar: ''
+  twitch: ''
+donationOptions:
+  enable: false
+  alipay: ''
+  wechat: ''
+  paypal: ''
+  patreon: ''
+  bitcoin: ''
+copyrightOptions:
+  enableCopyrightLink: false
+  copyrightLink: ''
+  copyrightLinkImage: ''
+  copyrightLinkText: ''
+share:
+  - name: facebook
+  - name: twitter
+    username: ''
+footerLinks:
+  - name: ''
+    link: ''
+  - name: ''
+    link: ''
+    searchResultPosition: main
+    notAllowedTypesInArchive:
+      - about
+      - talks
+      - showcase
+      - gallery
