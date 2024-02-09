@@ -32,29 +32,16 @@ taxonomies:
 outputs:
   page:
     - HTML
-    - SearchIndex
   home:
     - HTML
     - RSS
-    - SearchIndex
+    - JSON
   section:
     - HTML
     - RSS
-    - SearchIndex
-  taxonomyTerm:
-    - HTML
-    - RSS
-    - SearchIndex
   taxonomy:
     - HTML
     - RSS
-    - SearchIndex
-outputFormats:
-  SearchIndex:
-    mediaType: application/json
-    baseName: index
-    isPlainText: true
-    notAlternative: true
 services:
   googleAnalytics:
     id: G-H0B2DP8WR0
