@@ -1,9 +1,9 @@
 baseURL = "https://nonki-blog.netlify.app/" # The URL of your site.
 title = "Nonki Blog" # Title of your site
-theme = "zzo" # Name of Zzo theme folder in `themes/`.
+theme = "PaperMod"
 
-defaultContentLanguage = "en" # Default language to use (if you setup multilingual)
-defaultContentLanguageInSubdir = true # baseURL/en/, baseURL/kr/ ...
+# defaultContentLanguage = "en" # Default language to use (if you setup multilingual)
+# defaultContentLanguageInSubdir = true # baseURL/en/, baseURL/kr/ ...
 hasCJKLanguage = true # Set `true` for Chinese/Japanese/Korean languages.
 
 summaryLength = 70 # The length of a post description on a list page.
@@ -52,3 +52,12 @@ googleAnalytics = ""
     baseName = "index"
     isPlainText = true
     notAlternative = true
+
+[languages]
+  [languages.en]
+    disabled = false
+    languageCode = ''
+    languageDirection = ''
+    languageName = ''
+    title = ''
+    weight = 0
