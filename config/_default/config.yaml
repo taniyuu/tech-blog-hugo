@@ -10,7 +10,6 @@ enableEmoji: true
 paginate: 10
 rssLimit: 100
 enableGitInfo: false
-googleAnalytics: ''
 markup:
   goldmark:
     renderer:
@@ -56,3 +55,6 @@ outputFormats:
     baseName: index
     isPlainText: true
     notAlternative: true
+services:
+  googleAnalytics:
+    id: G-H0B2DP8WR0
