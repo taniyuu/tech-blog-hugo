@@ -1,0 +1,27 @@
+description: Engineer blog written by taniyuu.
+homeInfoParams:
+    Title: "Nonki Blog"
+    Content: >
+      👋 Welcome to my blog!
+
+      Sorry, almost all written in Japanese.🙇
+
+      - whoami : taniyuu
+
+      - 🏠 Shiga, Japan
+socialIcons:
+  - name: "x"
+    url: "https://x.com/zone_tanichan"
+  - name: "github"
+    url: "https://github.com/taniyuu"
+  - name: "instagram"
+    url: "https://www.instagram.com/zone_tanichan/"
+  - name: "facebook"
+    url: "https://www.facebook.com/yuuki.taniyama.5"
+ShowShareButtons: true
+ShareButtons: ["x","linkedin","facebook"]
+ShowReadingTime: true
+ShowPostNavLinks: true
+ShowBreadCrumbs: true
+ShowCodeCopyButtons: true
+ShowToc: true

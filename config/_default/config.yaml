@@ -1,0 +1,47 @@
+baseURL: 'https://nonki-blog.netlify.app/'
+title: Nonki Blog
+theme: PaperMod
+hasCJKLanguage: true
+summaryLength: 70
+buildFuture: true
+copyright: '©2021 taniyuu, All Rights Reserved'
+timeout: 10000
+enableEmoji: true
+paginate: 10
+rssLimit: 100
+enableGitInfo: false
+markup:
+  goldmark:
+    renderer:
+      hardWraps: true
+      unsafe: true
+      xHTML: true
+  highlight:
+    codeFences: true
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: false
+  tableOfContents:
+    endLevel: 3
+    ordered: false
+    startLevel: 2
+taxonomies:
+  category: categories
+  tag: tags
+  series: series
+outputs:
+  page:
+    - HTML
+  home:
+    - HTML
+    - RSS
+    - JSON
+  section:
+    - HTML
+    - RSS
+  taxonomy:
+    - HTML
+    - RSS
+services:
+  googleAnalytics:
+    id: G-H0B2DP8WR0
