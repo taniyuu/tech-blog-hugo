@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - feature/change-hugo-theme
 
 jobs:
   deploy:
